@@ -13,14 +13,15 @@ const Footer = () => {
 			<div className="container">
 				<div className="row">
 					<div className="col-md-4 pr-md-5">
-<<<<<<< HEAD
+
 						<a style={{ color:"#eda80e"}} href="#" className="footer-site-logo d-block mb-4">
 						USS ENTERPRISES
 						</a>
 						<p>
 						USS Enterprises is one of the fastest emerging IT Solution provider serving in IT industry 
 						since 2015 with a wide range of our “Products and Services Portfolio.
-=======
+						</p>
+
 						<a
 							style={{ color: "#eda80e" }}
 							href="#"
@@ -32,7 +33,7 @@ const Footer = () => {
 							USS Enterprises is one of the fastest emerging IT Solution
 							provider serving in IT industry since 2015 with a wide range of
 							our “Products and Services Portfolio.
->>>>>>> aaef7e9e3ae51d1a258d8c8e3fa6a7f09ace4e72
+
 						</p>
 					</div>
 					<div className="col-md">
@@ -45,15 +46,15 @@ const Footer = () => {
 							</li>
 							<li>
 								<a href="#">Product Portfolio</a>
-<<<<<<< HEAD
-=======
+
+
 							</li>
 							<li>
 								<a href="#">About Us</a>
 							</li>
 							<li>
 								<a href="#">CEO Message</a>
->>>>>>> aaef7e9e3ae51d1a258d8c8e3fa6a7f09ace4e72
+
 							</li>
 							<li>
 								<a href="#">About Us</a>
@@ -78,10 +79,7 @@ const Footer = () => {
 							<li>
 								<a href="#">Team</a>
 							</li>
-<<<<<<< HEAD
-							
-=======
->>>>>>> aaef7e9e3ae51d1a258d8c8e3fa6a7f09ace4e72
+
 						</ul>
 					</div>
 					<div className="col-md">
@@ -89,11 +87,7 @@ const Footer = () => {
 							<li>
 								<a href="#">Privacy Policy</a>
 							</li>
-<<<<<<< HEAD
-							
 
-=======
->>>>>>> aaef7e9e3ae51d1a258d8c8e3fa6a7f09ace4e72
 						</ul>
 					</div>
 					<div className="col-md text-md-center">
@@ -122,13 +116,12 @@ const Footer = () => {
 					<div className="col-12 text-center">
 						<div className="copyright mt-5 pt-5">
 							<p>
-<<<<<<< HEAD
+
 								<small>&copy; 2022 All Rights Reserved - USS ENTERPRISES </small>
-=======
+
 								<small>
 									&copy; 2022 All Rights Reserved - USS ENTERPRISES{" "}
 								</small>
->>>>>>> aaef7e9e3ae51d1a258d8c8e3fa6a7f09ace4e72
 							</p>
 						</div>
 					</div>
