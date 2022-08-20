@@ -3,6 +3,7 @@ import LandingPage from '../Components/LandingPage';
 import NavBar from '../Components/NavBar';
 import xsx from '../styles/images/xsx.jpg'
 import Image from 'next/image'
+import Footer from '../Components/Footer';
 
 
 const Services = () => {
@@ -971,6 +972,7 @@ const Services = () => {
 					</div>
 				</div>
 			</section>
+			<Footer/>
 		</div>
 	);
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import ContactForm from "../Components/ContactForm";
+import Footer from "../Components/Footer";
 import LandingPage from "../Components/LandingPage";
 import NavBar from "../Components/NavBar";
 
@@ -114,6 +115,7 @@ const About = () => {
 				</div>
 			</section>
       <ContactForm/>
+	  <Footer/>
 		</>
 	);
 };

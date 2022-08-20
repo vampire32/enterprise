@@ -22,19 +22,7 @@ const Footer = () => {
 						since 2015 with a wide range of our “Products and Services Portfolio.
 						</p>
 
-						<a
-							style={{ color: "#eda80e" }}
-							href="#"
-							className="footer-site-logo d-block mb-4"
-						>
-							USS ENTERPRISES
-						</a>
-						<p>
-							USS Enterprises is one of the fastest emerging IT Solution
-							provider serving in IT industry since 2015 with a wide range of
-							our “Products and Services Portfolio.
-
-						</p>
+						
 					</div>
 					<div className="col-md">
 						<ul className="list-unstyled nav-links">

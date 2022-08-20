@@ -5,6 +5,7 @@ import LandingPage from '../Components/LandingPage';
 import NavBar from '../Components/NavBar'
 import Icon from "../styles/images/709605.png";
 import ContactForm from '../Components/ContactForm';
+import Footer from '../Components/Footer';
 
 
 const CEOMessage = () => {
@@ -27,6 +28,7 @@ const CEOMessage = () => {
 				<CEO />
 			</div>
             <ContactForm/>
+			<Footer/>
 		</>
 	);
 }

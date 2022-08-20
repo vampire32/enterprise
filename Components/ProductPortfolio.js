@@ -5,6 +5,7 @@ import Tick from "../styles/images/7381543.png";
 import Image from "next/image";
 import ContactForm from './ContactForm';
 import BG from '../styles/images/phone-removebg-preview.png'
+import Footer from './Footer';
 
 
 const ProductPortfolio = (props) => {
@@ -440,6 +441,7 @@ const ProductPortfolio = (props) => {
 				</div>
 			</section>
 			<ContactForm />
+			<Footer/>
 		</div>
 	);
 }

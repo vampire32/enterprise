@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer';
 import LandingPage from '../Components/LandingPage';
 import NavBar from '../Components/NavBar';
 
@@ -157,6 +158,7 @@ const Alliances = () => {
 					</div>
 				</div>
 			</section>
+			<Footer/>
 		</div>
 	);
 }
