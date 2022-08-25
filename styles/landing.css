@@ -1,5 +1,7 @@
  .u-section1 {
-     background-image: linear-gradient(#db545a, #232b79);
+     background-image: url("../styles/images/geometric-g5c6712941_1920.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
  }
 
  .u-section1 .u-sheet-1 {

@@ -41,7 +41,7 @@ import Clentt7 from '../styles/images/client14.jpg';
 
 import ContactForm from "../Components/ContactForm";
 import CEO from "../Components/CEO";
-import Clients from "../Components/Clients";
+import Clients, { Button } from "../Components/Clients";
 import { Lines } from "react-preloaders";
 import Loader from "../Components/Loader";
 import Footer from "../Components/Footer";
@@ -49,6 +49,7 @@ import Acear from '../styles/images/acerlogo-removebg-preview.png'
 import Lenveo from '../styles/images/Lenvove.png'
 import Microsoft from '../styles/images/download-removebg-preview.png'
 import Firewall from '../styles/images/firewalls.png'
+import Link from "next/link";
 
 
 
@@ -62,6 +63,9 @@ import Firewall from '../styles/images/firewalls.png'
 export default function Home() {
 	const [loading, setloading] = useState(false)
 	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
 		setloading(true);
 		setTimeout(() => {
 			setloading(false);
@@ -102,7 +106,7 @@ export default function Home() {
 						data-image-width="1782"
 						data-image-height="1080"
 					>
-						<NavBar />
+						<NavBar theme="dark" color="white" />
 						<div className="u-clearfix u-sheet u-sheet-1">
 							<h1 className="u-align-left u-text u-text-palette-3-base u-text-1">
 								<b>USS ENTERPRISES</b>
@@ -567,10 +571,10 @@ export default function Home() {
 										</div>
 									</div>
 									<div
-										className="u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2"
+										className="u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2  mt-[2rem]"
 										data-aos="zoom-in"
 									>
-										<div className="u-container-layout u-valign-bottom-sm u-valign-bottom-xs u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-container-layout-2">
+										<div className="u-container-layout u-valign-bottom-sm u-valign-bottom-xs u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-container-layout-2 ">
 											<h2 className="u-align-center ">Printers</h2>
 											<h3
 												style={{
@@ -660,7 +664,7 @@ export default function Home() {
 
 						<div className="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
 							<div className="u-layout">
-								<div className="u-layout-row" data-aos="zoom-in">
+								<div className="u-layout-row mt-[9rem]" data-aos="zoom-in">
 									<div className="u-container-style u-expand-resize u-layout-cell u-left-cell u-size-28 u-layout-cell-1">
 										<div className="u-container-layout">
 											<div className="u-align-left u-expanded-width-sm u-expanded-width-xs u-palette-1-base u-shape u-shape-2"></div>
@@ -674,7 +678,7 @@ export default function Home() {
 											</div>
 										</div>
 									</div>
-									<div className="u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2">
+									<div className="u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2 mt-[4rem]">
 										<div className="u-container-layout u-valign-bottom-sm u-valign-bottom-xs u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-container-layout-2">
 											<h2 className="u-align-center ">
 												Heavy Duty Photocopiers
@@ -1069,6 +1073,14 @@ export default function Home() {
 						</div>
 					</section>
 					<Clients />
+					<div className="u-section-3 ">
+						<Link href="/OurTeam">
+							<a className="u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-color-style-multicolor-1 u-palette-2-base u-radius-0 u-btn-1">
+								View More
+							</a>
+						</Link>
+					</div>
+
 					<section
 						className="u-align-center u-black u-clearfix u-section-15"
 						id="sec-4a71"

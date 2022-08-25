@@ -9,101 +9,65 @@ import LOgo from "../styles/images/logo.png";
 import Button from "react-bootstrap/Button";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
+import Script from "next/script";
 
 
 
 
-const NavBar = () => {
+const NavBar = (props) => {
+	const Color=props.color;
+	
+	
 	
 	return (
 		<>
-			<Navbar variant="dark" expand="lg">
-				<Container className="text-white">
+			<Navbar variant={props.theme} expand="lg">
+				<Container className="text-[props.color]">
 					<Navbar.Brand href="#home">
 						<div className="d-inline-block align-top">
 							<Image alt="" src={LOgo} width="30" height="30" />
-							USS ENTERPRISES
+							Universal Systemic Solution
 						</div>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="justify-content-center flex-grow-1 ">
-							<Nav.Link className="text-white" href="#home">
+							<Nav.Link style={{ color: Color }}>
 								<Link href="/">
-									<a className="text-white">Home</a>
+									<a style={{ color: Color }}>Home</a>
 								</Link>
 							</Nav.Link>
-							<NavDropdown id="nav-dropdown-dark-example" title="Services">
-								<NavDropdown.Item>
-									<Link href="/Services">
-										<a className="text-black font-bold">Services</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Divider />
-								<NavDropdown.Item>
-									<Link href="/ENDUSINGComputing">
-										<a className="text-black">End User Computing</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link href="/ENTERPRISEComputing">
-										<a className="text-black">Enterprise Computing</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link href="/SOFTWARESOLUTION">
-										<a className="text-black">Software Solution</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link href="NETWORKandPOWERSOLUTION">
-										<a className="text-black">Network & Power Solution</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link href="SecuritySolution">
-										<a className="text-black">Security Solution</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link href="ITConsultant">
-										<a className="text-black">IT COnsultant</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item>
-									<Link href="ServicesComponentSolution">
-										<a className="text-black">Service & Component Solution</a>
-									</Link>
-								</NavDropdown.Item>
-							</NavDropdown>
+							<Nav.Link style={{ color: Color }}>
+								<Link href="/Services">
+									<a style={{ color: Color }}>Services</a>
+								</Link>
+							</Nav.Link>
+							<Nav.Link style={{ color: Color }}>
+								<Link href="/Portfolio">
+									<a style={{ color: Color }}>Portfolio</a>
+								</Link>
+							</Nav.Link>
+							<Nav.Link style={{ color: Color }}>
+								<Link href="/OurClients">
+									<a style={{ color: Color }}>Our Clients</a>
+								</Link>
+							</Nav.Link>
+							<Nav.Link style={{ color: Color }}>
+								<Link href="/OurTeam">
+									<a style={{ color: Color }}>Our Teams</a>
+								</Link>
+							</Nav.Link>
 
-							<NavDropdown title="About" id="basic-nav-dropdown">
-								<NavDropdown.Item>
-									<Link href="/About">
-										<a className="text-black">About</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Divider />
-								<NavDropdown.Item>
-									<Link href="/CEOMessage">
-										<a className="text-black">CEO Message</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item href="">
-									<Link href="/Alliances">
-										<a className="text-black">Our Alliances</a>
-									</Link>
-								</NavDropdown.Item>
-								<NavDropdown.Item href="">
-									<Link href="/OurClients">
-										<a className="text-black">Our Clients</a>
-									</Link>
-								</NavDropdown.Item>
-							</NavDropdown>
+							<Nav.Link style={{ color: Color }}>
+								<Link href="/About">
+									<a style={{ color: Color }}>About</a>
+								</Link>
+							</Nav.Link>
 							<Nav.Link>
 								{" "}
 								<Link href="/Contact">
-									<a className="text-white">Conatct Us</a>
+									<a style={{ color: Color }}>Conatct Us</a>
 								</Link>
 							</Nav.Link>
 						</Nav>

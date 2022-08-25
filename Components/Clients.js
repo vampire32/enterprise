@@ -14,13 +14,468 @@ import Benzir from '../styles/images/benazir.png'
 import Gawader from '../styles/images/Gwadar-Development-Authority-B-23-09-1024x640-removebg-preview.png'
 import Lu from '../styles/images/LUAWMS-Logo-removebg-preview.png'
 import PS  from '../styles/images/pakistanStandard.png' 
+import Link from 'next/link';
+export const Clientss=()=>{
+		return (
+			<>
+				<section
+					className="u-align-center-lg u-align-center-md u-align-center-xl u-align-center-xs u-align-right-sm u-clearfix u-palette-1-base u-section-14"
+					id="carousel_e759"
+					data-aos="fade-in"
+				>
+					<div className="u-clearfix u-sheet u-sheet-1">
+						<div className="u-expanded-width u-list u-list-2">
+							<div className="u-repeater u-repeater-2">
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-7">
+									<div className="u-container-layout u-similar-container u-container-layout-7">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-14">
+											07
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
+											Provincial Mohtasib Ombudsman, Sindh
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-palette-1-base u-radius-20 u-repeater-item u-shape-round u-list-item-8">
+									<div className="u-container-layout u-similar-container u-container-layout-8">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-16">
+											08
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Custom} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
+											Model Customs Collectorate, Hyderabad
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-9">
+									<div className="u-container-layout u-similar-container u-container-layout-9">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-18">
+											09
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Benzir} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
+											Shaheed Mohtarma Benazir Bhutto --Medical University,
+											Larkana
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+									<div className="u-container-layout u-similar-container u-container-layout-4">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
+											04
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
+											Deputy Commissioner Larkana.
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
+									<div className="u-container-layout u-similar-container u-container-layout-5">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
+											05
+										</h2>
+										<div className="u-icon icons">
+											<Image src={AU} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
+											Sindh Agriculture University, Tando Jam
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
+									<div className="u-container-layout u-similar-container u-container-layout-6">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
+											06
+										</h2>
+										<div className="u-icon icons">
+											<Image src={EP} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
+											Environmental Protections Agency, GOS
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-7">
+									<div className="u-container-layout u-similar-container u-container-layout-7">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-14">
+											07
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
+											Provincial Mohtasib Ombudsman, Sindh
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-palette-1-base u-radius-20 u-repeater-item u-shape-round u-list-item-8">
+									<div className="u-container-layout u-similar-container u-container-layout-8">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-16">
+											08
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Custom} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
+											Model Customs Collectorate, Hyderabad
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-9">
+									<div className="u-container-layout u-similar-container u-container-layout-9">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-18">
+											09
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Benzir} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
+											Shaheed Mohtarma Benazir Bhutto --Medical University,
+											Larkana
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+									<div className="u-container-layout u-similar-container u-container-layout-4">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
+											04
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
+											Deputy Commissioner Larkana.
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
+									<div className="u-container-layout u-similar-container u-container-layout-5">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
+											05
+										</h2>
+										<div className="u-icon icons">
+											<Image src={AU} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
+											Sindh Agriculture University, Tando Jam
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
+									<div className="u-container-layout u-similar-container u-container-layout-6">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
+											06
+										</h2>
+										<div className="u-icon icons">
+											<Image src={EP} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
+											Environmental Protections Agency, GOS
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+									<div className="u-container-layout u-similar-container u-container-layout-4">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
+											04
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
+											Deputy Commissioner Larkana.
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
+									<div className="u-container-layout u-similar-container u-container-layout-5">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
+											05
+										</h2>
+										<div className="u-icon icons">
+											<Image src={AU} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
+											Sindh Agriculture University, Tando Jam
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
+									<div className="u-container-layout u-similar-container u-container-layout-6">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
+											06
+										</h2>
+										<div className="u-icon icons">
+											<Image src={EP} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
+											Environmental Protections Agency, GOS
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-7">
+									<div className="u-container-layout u-similar-container u-container-layout-7">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-14">
+											07
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
+											Provincial Mohtasib Ombudsman, Sindh
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-palette-1-base u-radius-20 u-repeater-item u-shape-round u-list-item-8">
+									<div className="u-container-layout u-similar-container u-container-layout-8">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-16">
+											08
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Custom} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
+											Model Customs Collectorate, Hyderabad
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-9">
+									<div className="u-container-layout u-similar-container u-container-layout-9">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-18">
+											09
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Benzir} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
+											Shaheed Mohtarma Benazir Bhutto --Medical University,
+											Larkana
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+									<div className="u-container-layout u-similar-container u-container-layout-4">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
+											04
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
+											Deputy Commissioner Larkana.
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
+									<div className="u-container-layout u-similar-container u-container-layout-5">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
+											05
+										</h2>
+										<div className="u-icon icons">
+											<Image src={AU} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
+											Sindh Agriculture University, Tando Jam
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
+									<div className="u-container-layout u-similar-container u-container-layout-6">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
+											06
+										</h2>
+										<div className="u-icon icons">
+											<Image src={EP} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
+											Environmental Protections Agency, GOS
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-7">
+									<div className="u-container-layout u-similar-container u-container-layout-7">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-14">
+											07
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
+											Provincial Mohtasib Ombudsman, Sindh
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-palette-1-base u-radius-20 u-repeater-item u-shape-round u-list-item-8">
+									<div className="u-container-layout u-similar-container u-container-layout-8">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-16">
+											08
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Custom} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
+											Model Customs Collectorate, Hyderabad
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-9">
+									<div className="u-container-layout u-similar-container u-container-layout-9">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-18">
+											09
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Benzir} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
+											Shaheed Mohtarma Benazir Bhutto --Medical University,
+											Larkana
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+									<div className="u-container-layout u-similar-container u-container-layout-4">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
+											04
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
+											Deputy Commissioner Larkana.
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
+									<div className="u-container-layout u-similar-container u-container-layout-5">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
+											05
+										</h2>
+										<div className="u-icon icons">
+											<Image src={AU} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
+											Sindh Agriculture University, Tando Jam
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
+									<div className="u-container-layout u-similar-container u-container-layout-6">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
+											06
+										</h2>
+										<div className="u-icon icons">
+											<Image src={EP} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
+											Environmental Protections Agency, GOS
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-7">
+									<div className="u-container-layout u-similar-container u-container-layout-7">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-14">
+											07
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-15">
+											Provincial Mohtasib Ombudsman, Sindh
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-palette-1-base u-radius-20 u-repeater-item u-shape-round u-list-item-8">
+									<div className="u-container-layout u-similar-container u-container-layout-8">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-16">
+											08
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Custom} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-17">
+											Model Customs Collectorate, Hyderabad
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-9">
+									<div className="u-container-layout u-similar-container u-container-layout-9">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-18">
+											09
+										</h2>
+										<div className="u-icon icons">
+											<Image src={Benzir} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-19">
+											Shaheed Mohtarma Benazir Bhutto --Medical University,
+											Larkana
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-4">
+									<div className="u-container-layout u-similar-container u-container-layout-4">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-8">
+											04
+										</h2>
+										<div className="u-icon icons">
+											<Image src={DC} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-9">
+											Deputy Commissioner Larkana.
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-5">
+									<div className="u-container-layout u-similar-container u-container-layout-5">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-10">
+											05
+										</h2>
+										<div className="u-icon icons">
+											<Image src={AU} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-11">
+											Sindh Agriculture University, Tando Jam
+										</h4>
+									</div>
+								</div>
+								<div className="u-align-center u-container-style u-custom-item u-list-item u-radius-20 u-repeater-item u-shape-round u-white u-list-item-6">
+									<div className="u-container-layout u-similar-container u-container-layout-6">
+										<h2 className="u-custom-font u-custom-item u-font-lato u-text u-text-palette-1-base u-text-12">
+											06
+										</h2>
+										<div className="u-icon icons">
+											<Image src={EP} alt="" />
+										</div>
+										<h4 className="u-custom-font u-custom-item u-font-montserrat u-text u-text-palette-1-base u-text-13">
+											Environmental Protections Agency, GOS
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</>
+		);
+	}
 
-const Clients = () => {
+
+const Clients = (props) => {
 	useEffect(() => {
 		AOS.init({
 			duration: 2000,
 		});
 	}, []);
+	
   return (
 		<section
 			className="u-align-center-lg u-align-center-md u-align-center-xl u-align-center-xs u-align-right-sm u-clearfix u-palette-1-base u-section-14"
@@ -193,6 +648,7 @@ const Clients = () => {
 								</h4>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>

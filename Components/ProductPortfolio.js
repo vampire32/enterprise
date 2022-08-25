@@ -1,22 +1,28 @@
-import React from 'react'
-import LandingPage from './LandingPage';
-import NavBar from './NavBar';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import LandingPage from "./LandingPage";
+import NavBar from "./NavBar";
 import Tick from "../styles/images/7381543.png";
 import Image from "next/image";
-import ContactForm from './ContactForm';
-import BG from '../styles/images/phone-removebg-preview.png'
-import Footer from './Footer';
-
+import ContactForm from "./ContactForm";
+import BG from "../styles/images/phone-removebg-preview.png";
+import Footer from "./Footer";
 
 const ProductPortfolio = (props) => {
-  return (
+	useEffect(() => {
+		AOS.init({
+			duration: 2000,
+		});
+	}, []);
+	return (
 		<div className="u-body u-xl-mode">
 			<section
 				className="u-align-center u-clearfix u-gradient u-section1"
 				src=""
 				id="sec-a2a2"
 			>
-				<NavBar />
+				<NavBar theme="dark" color="white" />
 				<LandingPage Name={props.TopName} desc={props.TopDesc} />
 			</section>
 			<section
@@ -26,11 +32,13 @@ const ProductPortfolio = (props) => {
 				id="sec-fce4"
 			>
 				<div className="u-clearfix u-sheet u-valign-bottom u-sheet-1">
-					<h2 className="u-text u-text-default u-text-1">
+					<h2 className="u-text u-text-default u-text-1" data-aos="flip-up">
 						{props.ProductName}
 					</h2>
-					<p className="u-text u-text-2">{props.ProductDesc}</p>
-					<div className="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+					<p className="u-text u-text-2" data-aos="flip-up">
+						{props.ProductDesc}
+					</p>
+					<div className="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1" data-aos="zoom-in">
 						<div className="u-gutter-0 u-layout">
 							<div className="u-layout-row">
 								<div className="u-size-20 u-size-30-md">
@@ -175,7 +183,10 @@ const ProductPortfolio = (props) => {
 									</div>
 								</div>
 								<div className="u-size-20 u-size-30-md">
-									<div className="flex-row justify-center align-middle " style={{marginTop:"20vh"}}>
+									<div
+										className="flex-row justify-center align-middle "
+										style={{ marginTop: "20vh" }}
+									>
 										<div className="">
 											<Image src={props.BG} width={500} height={800} alt="" />
 
@@ -319,7 +330,7 @@ const ProductPortfolio = (props) => {
 				className="u-clearfix u-palette-1-base u-section-333"
 				id="sec-d962"
 			>
-				<div className="u-clearfix u-sheet u-sheet-1">
+				<div className="u-clearfix u-sheet u-sheet-1" data-aos="slide-up">
 					<div className="u-expanded-width u-list u-list-1">
 						<div className="u-repeater u-repeater-1">
 							<div className="u-container-style u-list-item u-repeater-item">
@@ -441,9 +452,9 @@ const ProductPortfolio = (props) => {
 				</div>
 			</section>
 			<ContactForm />
-			<Footer/>
+			<Footer />
 		</div>
 	);
-}
+};
 
-export default ProductPortfolio
+export default ProductPortfolio;
